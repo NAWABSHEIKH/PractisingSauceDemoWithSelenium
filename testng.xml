@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SauceDemo Test Suite">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="Regression Test">
+
+        <classes>
+
+            <class name="tests.LoginTest"/>
+            <class name="tests.SearchAndGetInfoClothTest"/>
+            <class name="tests.SingleOrMultipleCheckoutTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
